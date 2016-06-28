@@ -115,7 +115,7 @@ font-weight: bold;
   min-height:650px;
 }
 #contact {
-  min-height:600px;
+  min-height:650px;
 }
 .butn {
 background-color: #FE9A2E!important;
@@ -143,8 +143,11 @@ font-weight: bold;
 .aboutservice {
   font-family:  Josefin Sans,sans-serif;
 }
-.projectsbody, .contactbody {
+.projectsbody {
   margin-top: 5%;
+}
+.contactbody {
+  margin-top: 9%;
 }
 .modal-body h4 {
   font-family:  Josefin Sans,sans-serif;
@@ -173,6 +176,7 @@ font-weight: bold;
 }
 #contact a {
   outline: 0;
+  color: black;
 }
 .mainimg:hover {
   
@@ -181,4 +185,7 @@ font-weight: bold;
   font-weight: bold; 
   text-decoration: underline;
   cursor: pointer;
+}
+#contact {
+  background-color: #848484!important;
 }
