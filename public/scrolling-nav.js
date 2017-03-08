@@ -17,3 +17,15 @@ $(function() {
         event.preventDefault();
     });
 });
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 130) {
+            $('.jump').fadeIn();
+        } else {
+            $('.jump').hide();
+        }
+    });
+});;
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});

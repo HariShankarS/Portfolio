@@ -1,258 +1,269 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Hari Shankar - Web Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
-  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link type ="text/css" rel="stylesheet" href="haris.css">
-  <link type ="text/css" rel="stylesheet" href="bootstrap.min.css">
-  <link type ="text/css" rel="stylesheet" href="bootstrap-material-design.css">
-  <link type ="text/css" rel="stylesheet" href="ripples.css">
-  <link href="scrolling-nav.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sniglet" />
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
-
-  <script src="jquery.min.js"></script>
-  <script src="bootstrap.min.js"></script>
-  <script src="material.min.js"></script>
-  <script src="ripples.js"></script>
-  <script src="jquery.easing.min.js"></script>
-  <script src="scrolling-nav.js"></script>
-</head>
-<body data-spy="scroll" data-target=".navbar">
-<div class="container-fluid" id="computer" >
-  <div class="navbar navbar-fixed-top navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="navbar-collapse collapse navbar-warning-collapse">
-        <ul class="nav navbar-nav">
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="page-scroll" href="#services">SKILLS</a></li>
-          <li><a class="page-scroll" href="#portfolio">PROFILE</a></li>
-          <li><a class="page-scroll" href="#contact">CONTACT ME</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- Header -->
-  <div class="container index">
-    <div class="col-md-12 title">
-      <h3><span class="welcome"> Welcome to my page </span></h3>
-      <h2><span class="nice"> IT'S NICE TO MEET YOU </span></h2>
-      <h2><a class="btn btn-raised page-scroll butn welcome" href="#services">WHAT DO I DO
-      <i class="material-icons whatido">arrow_downward</i></a></h2>
-    </div>
-  </div>
-</div>
-<!--SERVICES -->
-<section id="services" class="container-fluid ">
-  <div class="container-fluid services">
-    <h2><span class="titles">SKILLS</span></h2>
-    <div class="container service">
-      <div class="col-md-4 responsive">
-        <h3><i class="material-icons">laptop_mac</i></h3>
-        <h4><span class="titles">Responsive Design</span></h4>
-        <h4><span class="aboutservice">I develop Responsive designs using Bootstrap, Bootstrap Material Design theme which can be used in all types of devices. </span></h4>
-      </div>     
-      <div class="col-md-4 ecommerce">
-        <h3><i class="material-icons">shopping_cart</i></h3>
-        <h4><span class="titles">Back-End</span></h4>
-        <h4><span class="aboutservice">I use Ruby on Rails framework to create back-end for E-commerce apps, CRMs.</span></h4>
-      </div>
-      <div class="col-md-4 sercurity">
-        <h3><i class="material-icons">settings_brightness</i></h3>
-        <h4><span class="titles">Web tools</span></h4>
-        <h4><span class="aboutservice"> I create single page web apps using Javascript </span></h4>
-      </div>
-    </div>
-  </div>
-</section>
-<!--POERTFOLIO -->
-<section id="portfolio" class="container-fluid">
-  <div class="container portfolio">
-    <h2><span class="titles">PROJECTS</span></h2>
-    <div class="col-md-12 projectsbody">
-      <div class="col-md-3 bord">
-        <div class="mainimg" data-toggle="modal" data-target="#myModal1"> 
-          <img src="bub.png" class="img-responsive" >
-          <h3 class="result">Bub Lee </h3>
-          <h4> E-Commerce Website</h4>
+  <head>
+    <title>Hari Shankar - Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link type ="text/css" rel="stylesheet" href="haris.css">
+    <link type ="text/css" rel="stylesheet" href="bootstrap.min.css">
+    <link type ="text/css" rel="stylesheet" href="bootstrap-material-design.css">
+    <link type ="text/css" rel="stylesheet" href="ripples.css">
+    <link href="scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sniglet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,300%7COpen+Sans:400,300,700" rel="stylesheet" type="text/css">  
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="haris.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="material.min.js"></script>
+    <script src="ripples.js"></script>
+    <script src="jquery.easing.min.js"></script>
+    <script src="scrolling-nav.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+    <div class="container-fluid" id="computer" >
+      <div class="navbar navbar-fixed-top navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse navbar-warning-collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="page-scroll" href="#services">SKILLS</a></li>
+              <li><a class="page-scroll" href="#portfolio">PROFILE</a></li>
+              <li><a class="page-scroll" href="#contact">CONTACT ME</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="modal" id="myModal1">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <h3 class="modal-title"> Bublee - E-Commerce Website </h3>
-              </div>
-              <div class="modal-body" >
-                <div class="col-md-10 col-md-offset-1">
-                  <h4> Bublee is a water can delivery Service in Visakhapatnam. I have created site using Ruby on Rails Framework, Bootstrap and bootstrap material design theme for the front-end design. I have also integrated Paytm wallet to this site. You can look at the site here : 
-                  <a target="_blank" href="http://www.bubleewater.in/orders/new">Bublee</a> </h4>
-                  <br /><br /><br />
-                  <img src="bublee1.png" class="img-responsive"> <br /><br /><br />
-                  <img src="bublee2.png" class="img-responsive"> <br /><br /><br />
-                  <img src="bublee3.png" class="img-responsive"> <br /><br /><br />
-                  <img src="bublee4.png" class="img-responsive"> <br /><br /><br />
-                  <img src="bublee5.png" class="img-responsive"> <br /><br /><br />
-                  <img src="bublee6.png" class="img-responsive"> <br />
+      </div>
+      <section id="home_page" class="container-fluid">
+        <!-- Header -->
+        <div class="container index">
+          <div class="col-md-12 title">
+            <h2>
+              <span class="nice"> Hello, I'm <strong>Hari Shankar</strong> <br> Web Developer & freelancer <br> based in Bengaluru. </span>
+            </h2>
+            <h2>
+              <a class="btn btn-raised page-scroll butn" href="#services">
+                <i class="material-icons arrow">arrow_downward</i>
+              </a>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--SERVICES -->
+    <section id="services" class="container-fluid ">
+      <div class="container-fluid services">
+        <h2><span class="titles">SKILLS</span></h2>
+        <div class="container service">
+          <div class="col-md-4 responsive">
+            <h3><i class="material-icons arrow_orange">laptop_mac</i></h3>
+            <h4><span class="titles">Responsive Design</span></h4>
+            <h4><span class="aboutservice">I develop Responsive designs using Bootstrap, Bootstrap Material Design theme which can be used in all types of devices. </span></h4>
+          </div>     
+          <div class="col-md-4 ecommerce">
+            <h3><i class="material-icons arrow_orange">shopping_cart</i></h3>
+            <h4><span class="titles">Back-End</span></h4>
+            <h4><span class="aboutservice">I use Ruby on Rails framework to create back-end for E-commerce apps, CRMs.</span></h4>
+          </div>
+          <div class="col-md-4 sercurity">
+            <h3><i class="material-icons arrow_orange">settings_brightness</i></h3>
+            <h4><span class="titles">Web tools</span></h4>
+            <h4><span class="aboutservice"> I create single page web apps using Javascript </span></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--POERTFOLIO -->
+    <section id="portfolio" class="container-fluid">
+      <div class="container portfolio">
+        <h2><span class="titles">PROJECTS</span></h2>
+        <div class="col-md-12 projectsbody">
+          <div class="col-md-3 bord">
+            <div class="mainimg" data-toggle="modal" data-target="#myModal1"> 
+              <img src="bub.png" class="img-responsive" >
+              <h3 class="result">Bub Lee </h3>
+              <h4> E-Commerce Website</h4>
+            </div>
+            <div class="modal" id="myModal1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h3 class="modal-title"> Bublee - E-Commerce Website </h3>
+                  </div>
+                  <div class="modal-body" >
+                    <div class="col-md-10 col-md-offset-1">
+                      <h4> Bublee is a water can delivery Service in Visakhapatnam. I have created site using Ruby on Rails Framework, Bootstrap and bootstrap material design theme for the front-end design. I have also integrated Paytm wallet to this site. You can look at the site here : 
+                      <a target="_blank" href="http://www.bubleewater.in/orders/new">Bublee</a> </h4>
+                      <br /><br /><br />
+                      <img src="bublee1.png" class="img-responsive"> <br /><br /><br />
+                      <img src="bublee2.png" class="img-responsive"> <br /><br /><br />
+                      <img src="bublee3.png" class="img-responsive"> <br /><br /><br />
+                      <img src="bublee4.png" class="img-responsive"> <br /><br /><br />
+                      <img src="bublee5.png" class="img-responsive"> <br /><br /><br />
+                      <img src="bublee6.png" class="img-responsive"> <br />
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                  </div>
                 </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          <div class="col-md-3 bord">
+            <div class="mainimg" data-toggle="modal" data-target="#myModal2"> 
+              <img src="f1.png" class="img-responsive" >
+              <h3 class="result"> Forever </h3>
+              <h4> Mini social networking Platform</h4>
+            </div>
+            <div class="modal" id="myModal2">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h3 class="modal-title"> Forever </h3>
+                  </div>
+                  <div class="modal-body" >
+                    <div class="col-md-10 col-md-offset-1">
+                      <h4>I have developed an Instagram like site where there is an access to sign in and out, create a post, can add images to it, update or destroy the posts he added, like and comment on other posts.</h4>
+                      <br /><br /><br />
+                      <img src="f0.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="f1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="f2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="f3.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="f4.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br />
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 bord">
+            <div class="mainimg" data-toggle="modal" data-target="#myModal4"> 
+              <img src="cinema.png" class="img-responsive">
+              <h3 class="result"> Ruby on Rails </h3>
+              <h4> Web Applications </h4>
+            </div>
+            <div class="modal" id="myModal4">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h3 class="modal-title"> ROR - Web Applications </h3>
+                  </div>
+                  <div class="modal-body" >
+                    <div class="col-md-10 col-md-offset-1">
+                      <h4> I have done various Web Applications using Ruby on Rails Framework like </h4>
+                      	<ul>
+                          <li> PinBoard - A Pinterest like site </li>
+                          <li> Cinema - A Movie review site </li>
+                          <li> Dictionary </li>
+                          <li> Recipe-Box </li>
+                      		<li> Blog </li>
+                          <li> Wiki - Wikipedia Clone </li>
+                          <li> Getjob - Job Board </li>
+                      		<li> Raddit </li>
+                          <li> Aspire </li>
+                      	</ul>
+                      <h4> <a target="_blank" href="https://github.com/SHariShankar/pin_board"> Pin Board </a> </h4>
+                      <img src="pin_board.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <h4> <a target="_blank" href="https://cinema.omarket.in"> Cinema </a> </h4>
+                      <img src="cinema.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="cinema1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="cinema2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <h4> <a target="_blank" href="https://dictionary-english-telugu.herokuapp.com"> Dictionary</a></h4>
+                      <img src="dictionary.png"  alt="Hari Shankar - Web Developer" class="img-responsive"> <br /><br /><br />
+                      <h4> <a target="_blank" href="https://github.com/SHariShankar/recipe_box"> Recipe Box </a> </h4>
+                      <img src="recipe_box.png" class="img-responsive"> <br /><br /><br />
+                      <h4> <a target="_blank" href="https://github.com/SHariShankar/blog"> Blog </a> </h4>
+                      <img src="blog.png" class="img-responsive"> <br /><br /><br />
+                      <h4> <a target="_blank" href="https://github.com/SHariShankar/wiki"> Wiki </a> </h4>
+                      <img src="wiki.png" class="img-responsive"> <br /><br /><br />
+                      <h4> <a target="_blank" href="https://github.com/SHariShankar/getjob"> Getjob </a> </h4>
+                      <img src="Getjob.png" class="img-responsive"> <br /><br /><br />
+                      <h4> <a target="_blank" href="https://github.com/SHariShankar/Reddit"> Raddit </a> </h4>
+                      <img src="raddit.png" class="img-responsive"> <br /><br /><br />
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 bord">
+            <div class="mainimg" data-toggle="modal" data-target="#myModal3">
+              <img src="holtrop.png" class="img-responsive" >
+              <h3 class="result"> Naval Architecture </h3>
+              <h4> 3 Single page Web apps </h4>
+            </div>
+            <div class="modal" id="myModal3">
+               <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h3 class="modal-title"> Naval Architecture </h3>
+                  </div>
+                  <div class="modal-body" >
+                     <div class="col-md-10 col-md-offset-1">
+                      <h4> In these 3 applications, I have designed web-tools using Javascript with which a naval-architect can calculate the Hydrostatics Properties , Sectional Areas and Vertical Moments, Resistance Calculations, Scantlings Calculation of Super Structure of a Ship  </h4>
+                      <h4><a target="_blank" href="http://www.sharishankar.com/hydrostatics.html">Hydrostatics</a></h4>
+                      <h4><a target="_blank" href="http://www.sharishankar.com/resistance.html">Holtrop Mennen method</a></h4>
+                      <h4><a target="_blank" href="http://www.sharishankar.com/bonjeans.html">Sectional areas and Vertical moments</a></h4>
+                      <br /><br /><br />
+                      <img src="hydro1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="hydro2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="hotrop.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br />
+                      <img src="bonjeans1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                      <img src="bonjeans2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-3 bord">
-        <div class="mainimg" data-toggle="modal" data-target="#myModal2"> 
-          <img src="f1.png" class="img-responsive" >
-          <h3 class="result"> Forever </h3>
-          <h4> Mini social networking Platform</h4>
-        </div>
-        <div class="modal" id="myModal2">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <h3 class="modal-title"> Forever </h3>
-              </div>
-              <div class="modal-body" >
-                <div class="col-md-10 col-md-offset-1">
-                  <h4>I have developed an Instagram like site where there is an access to sign in and out, create a post, can add images to it, update or destroy the posts he added, like and comment on other posts.</h4>
-                  <br /><br /><br />
-                  <img src="f0.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="f1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="f2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="f3.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="f4.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br />
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
+    </section>
+    <!--CONTACT ME -->
+    <section id="contact" class="container-fluid">
+      <div class="container contactme">
+        <h2><span class="titles">CONTACT ME</span></h2>
+        <div class="col-md-2 col-md-offset-5 contactbody">
+          <img src="hari1.png" alt="Hari Shankar - Web Developer" class="img-rounded img-responsive profile" width="300" height="300">
+          <h2>
+            <a target="_blank" href="https://www.linkedin.com/in/hari-shankar-652206107?trk=hp-identity-name"><i class="fa fa-linkedin-square " style="font-size:30px"></i></a>
+            <a href="mailto:s.harishankar333@gmail.com?Subject=Hello" target="_top"><i class="fa fa-google " style="font-size:30px"></i></a>
+            <a target="_blank" href="http://www.twitter.com/S_Hari_Shankar"><i class="fa fa-twitter " style="font-size:30px"></i></a>
+            <a target="_blank" href="https://github.com/SHariShankar"><i class="fa fa-github " style="font-size:30px"></i></a>
+          </h2>
         </div>
       </div>
-      <div class="col-md-3 bord">
-        <div class="mainimg" data-toggle="modal" data-target="#myModal4"> 
-          <img src="cinema.png" class="img-responsive">
-          <h3 class="result"> Ruby on Rails </h3>
-          <h4> Web Applications </h4>
-        </div>
-        <div class="modal" id="myModal4">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <h3 class="modal-title"> ROR - Web Applications </h3>
-              </div>
-              <div class="modal-body" >
-                <div class="col-md-10 col-md-offset-1">
-                  <h4> I have done various Web Applications using Ruby on Rails Framework like </h4>
-                  	<ul>
-                      <li> PinBoard - A Pinterest like site </li>
-                      <li> Cinema - A Movie review site </li>
-                      <li> Dictionary </li>
-                      <li> Recipe-Box </li>
-                  		<li> Blog </li>
-                      <li> Wiki - Wikipedia Clone </li>
-                      <li> Getjob - Job Board </li>
-                  		<li> Raddit </li>
-                      <li> Aspire </li>
-                  	</ul>
-                  <h4> <a target="_blank" href="https://github.com/SHariShankar/pin_board"> Pin Board </a> </h4>
-                  <img src="pin_board.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <h4> <a target="_blank" href="https://cinema.omarket.in"> Cinema </a> </h4>
-                  <img src="cinema.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="cinema1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="cinema2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <h4> <a target="_blank" href="https://dictionary-english-telugu.herokuapp.com"> Dictionary</a></h4>
-                  <img src="dictionary.png"  alt="Hari Shankar - Web Developer" class="img-responsive"> <br /><br /><br />
-                  <h4> <a target="_blank" href="https://github.com/SHariShankar/recipe_box"> Recipe Box </a> </h4>
-                  <img src="recipe_box.png" class="img-responsive"> <br /><br /><br />
-                  <h4> <a target="_blank" href="https://github.com/SHariShankar/blog"> Blog </a> </h4>
-                  <img src="blog.png" class="img-responsive"> <br /><br /><br />
-                  <h4> <a target="_blank" href="https://github.com/SHariShankar/wiki"> Wiki </a> </h4>
-                  <img src="wiki.png" class="img-responsive"> <br /><br /><br />
-                  <h4> <a target="_blank" href="https://github.com/SHariShankar/getjob"> Getjob </a> </h4>
-                  <img src="Getjob.png" class="img-responsive"> <br /><br /><br />
-                  <h4> <a target="_blank" href="https://github.com/SHariShankar/Reddit"> Raddit </a> </h4>
-                  <img src="raddit.png" class="img-responsive"> <br /><br /><br />
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 bord">
-        <div class="mainimg" data-toggle="modal" data-target="#myModal3">
-          <img src="holtrop.png" class="img-responsive" >
-          <h3 class="result"> Naval Architecture </h3>
-          <h4> 3 Single page Web apps </h4>
-        </div>
-        <div class="modal" id="myModal3">
-           <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
-                <h3 class="modal-title"> Naval Architecture </h3>
-              </div>
-              <div class="modal-body" >
-                 <div class="col-md-10 col-md-offset-1">
-                  <h4> In these 3 applications, I have designed web-tools using Javascript with which a naval-architect can calculate the Hydrostatics Properties , Sectional Areas and Vertical Moments, Resistance Calculations, Scantlings Calculation of Super Structure of a Ship  </h4>
-                  <h4><a target="_blank" href="http://www.sharishankar.com/hydrostatics.html">Hydrostatics</a></h4>
-                  <h4><a target="_blank" href="http://www.sharishankar.com/resistance.html">Holtrop Mennen method</a></h4>
-                  <h4><a target="_blank" href="http://www.sharishankar.com/bonjeans.html">Sectional areas and Vertical moments</a></h4>
-                  <br /><br /><br />
-                  <img src="hydro1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="hydro2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="hotrop.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br />
-                  <img src="bonjeans1.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                  <img src="bonjeans2.png" alt="Hari Shankar - Web Developer"  class="img-responsive"> <br /><br /><br />
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    </section>
+    <div class="footer">
+      <a class="page-scroll jump" href="#home_page" style="display: none;">
+        <i class="material-icons arrow_black">arrow_upward</i>
+      </a>
     </div>
-  </div>
-</section>
-<!--CONTACT ME -->
-<section id="contact" class="container-fluid">
-  <div class="container contactme">
-    <h2><span class="titles">CONTACT ME</span></h2>
-    <div class="col-md-2 col-md-offset-5 contactbody">
-      <img src="hari1.png" alt="Hari Shankar - Web Developer" class="img-rounded img-responsive profile" width="300" height="300">
-      <h2>
-        <a target="_blank" href="https://www.linkedin.com/in/hari-shankar-652206107?trk=hp-identity-name"><i class="fa fa-linkedin-square " style="font-size:30px"></i></a>
-        <a href="mailto:s.harishankar333@gmail.com?Subject=Hello" target="_top"><i class="fa fa-google " style="font-size:30px"></i></a>
-        <a target="_blank" href="http://www.twitter.com/S_Hari_Shankar"><i class="fa fa-twitter " style="font-size:30px"></i></a>
-        <a target="_blank" href="https://github.com/SHariShankar"><i class="fa fa-github " style="font-size:30px"></i></a>
-      </h2>
-    </div>
-  </div>
-</section>
-</body>
+  </body>
 </html>
 
