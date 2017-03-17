@@ -207,7 +207,7 @@ p, section ul {
 }
 .aboutus-box .content h3 {
   font-family: "Open Sans",Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: bold;
 }
@@ -320,7 +320,7 @@ section.parallax h2 {
 .parallax-testimonial-item blockquote p {
   margin-bottom: 0;
   font-size: 25px;
-  font-weight: 430;
+  font-weight: 400;
   line-height: 33px;
   color: #fff;
   position: relative;
@@ -417,7 +417,7 @@ ul.client_items li, ul.project_list li {
     float: left;
 }
 .serviceBox .service-content h3{
-    margin: 11px 0 30px 67px;
+    margin: 1px 10px 20px 67px;
     color: #000;
     font-size: 16px;
     line-height: 30px;
@@ -425,7 +425,7 @@ ul.client_items li, ul.project_list li {
     font-family: "Open Sans",Helvetica, Arial, sans-serif;
 }
 .serviceBox .service-content p{
-    font-size: 11px;
+    font-size: 12px;
     line-height: 29px;
     margin: 0;
     font-family: "Open Sans",Helvetica, Arial, sans-serif;
