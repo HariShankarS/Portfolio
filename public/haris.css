@@ -136,7 +136,7 @@ font-weight: bold;
   font-family:  Josefin Sans,sans-serif;
 }
 .projectsbody {
-  margin-top: 5%;
+  margin-top: 1%;
 }
 .contactbody {
   margin-top: 9%;
@@ -159,9 +159,8 @@ font-weight: bold;
   background-color: #D8D8D8!important;
 }
 .bord {
-  background-color: white;
   border: 7px solid #D8D8D8;
-  padding: 7px;
+  cursor: pointer;
 }
 .profile {
   border: 1px solid black;
@@ -197,5 +196,68 @@ font-weight: bold;
   color: black !important;
   outline: 0 !important;
 }
-.arrow_black {
+
+.my-work{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.my-work:before,
+.my-work:after{
+    background: #00bed3;
+    position: absolute;
+    z-index: -1;
+}
+.my-work .pic{
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.my-work .pic:after{
+    content: "";
+    width: 100%;
+    height: 0;
+    background: #33343e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform-origin: 0 0 0;
+    transition: all 0.5s ease 0s;
+}
+.my-work:hover .pic:after{
+    height: 100%;
+    opacity: 0.5;
+}
+.my-work .content{
+    width: 100%;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    transition: all 0.5s ease 0.2s;
+}
+.my-work:hover .content{
+    top: 38%;
+}
+.my-work .title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+}
+.my-work .website{
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    text-transform: capitalize;
+    font-family: Josefin Sans,sans-serif;
+}
+
+@media only screen and (max-width: 990px){
+    .my-work{ margin-bottom: 30px; }
+}
+.bord img {
+  height: 200px !important;
 }
