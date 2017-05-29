@@ -83,12 +83,6 @@
         <p id="brkt"></p>
       </div>
     </div>
-    <div id="wrapper">
-        <!-- your html for your website -->
-    </div>
-    <div id="warning-message">
-        this website is only viewable in landscape mode
-    </div>
   </body>
   <style type="text/css">
     #input1, #input2 {
@@ -124,17 +118,21 @@
     p {
       padding-left: 5px;
     }
-    #warning-message { display: none; }
-    @media only screen and (orientation:portrait){
-        #wrapper { display:none; }
-        #warning-message { display:block; }
+
+    .rotated { 
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
     }
-    @media only screen and (orientation:landscape){
-        #warning-message { display:none; }
-    }
+
   </style>
   <script type="text/javascript">
-    
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        // is mobile..
+      $('.over').addClass('rotated');
+    }  
 
     $("#mc").on('click',function(){
       $(".memory").attr("value","0");
