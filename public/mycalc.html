@@ -120,6 +120,14 @@
     }
   </style>
   <script type="text/javascript">
+    function callback(){
+      alert(window.orientation);
+      if(window.innerHeight > window.innerWidth){
+        /* some code */
+      }
+    }
+    window.addEventListener('orientationchange', callback, true);
+    
     $("#mc").on('click',function(){
       $(".memory").attr("value","0");
       $(".capitalm").hide();
