@@ -394,7 +394,7 @@ $(document).ready(function() {
       var equation = equation.replace(/\^/g,"**");
       var equation = equation.replace(/\%/g,"*0.01*");
       var equation = equation.replace(/mod/g,"\%");
-      var equation = equation.replace(/e+/g,"*10**");
+      var equation = equation.replace(/e\+/g,"*10**");
       var equation = equation.replace(/minus/g,"(-");
       if (equation.indexOf('yroot') > -1 ) {
         var equation = yrootfn(equation);
