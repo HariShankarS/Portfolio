@@ -39,7 +39,7 @@ p {
   position: absolute;
   z-index: 40;
   right: auto; 
-  height: 331px; 
+  height: auto; 
   bottom: auto;
 }
 .calc_container {
@@ -98,15 +98,15 @@ p {
   height: 25px;
 }
 
-#calculator_content{
+#calculator_content {
   padding:10px;
 }
 
 #helpContent
 {
-    height: 243px;
-    overflow: auto;
-    padding: 10px;
-    width: 560px;
-    padding-bottom: 20px;
+  height: 243px;
+  overflow: auto;
+  padding: 10px;
+  width: 560px;
+  padding-bottom: 20px;
 }
