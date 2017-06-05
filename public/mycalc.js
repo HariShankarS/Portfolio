@@ -158,7 +158,11 @@ $(document).ready(function() {
       if (last_btn_type == "method") {
         repl = document.getElementById('input1').innerHTML.split(/\+|\%|\-|\/|\*|\^|yroot|mod|logxBasey/);
         repl_value = repl[repl.length - 1];
-        pre_repl_value = repl[repl.length - 2];
+        if (repl.length >= 2 ) {
+          pre_repl_value = repl[repl.length - 2];
+        } else {
+          pre_repl_value = "";
+        }
         if ( (pre_repl_value.slice(-1) == "(") ) {
           document.getElementById('input1').innerHTML = document.getElementById('input1').innerHTML.replace(pre_repl_value+"-"+repl_value,"");
         } else {
