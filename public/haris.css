@@ -90,17 +90,17 @@ line-height: 1.3;
   font-family:  Josefin Sans,sans-serif;
 }
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus{
-  color: #FE9A2E!important;
+  color: #0F0F10 !important;
 }
 .navbar .navbar-nav > li >a:hover {
-    color: #FE9A2E!important;
+    color: #0F0F10 !important;
 }
 .navbar-collapse {
   margin-right: 100px!important;
 }
 #services {
   min-height:650px;
-  background-color: white!important;
+  background-color: #52B1F5 !important;
 }
 #portfolio {
   min-height:650px;
@@ -110,7 +110,7 @@ line-height: 1.3;
 }
 .butn {
 margin-top: 50px !important;
-background-color: #FE9A2E!important;
+background-color: #53BFE6!important;
 }
 .btn.btn-raised {
   color: white!important;
@@ -130,7 +130,7 @@ font-weight: bold;
 }
 .arrow_orange {
   font-size: 100px !important;
-  color: #FE9A2E!important;
+  color: white !important;
 }
 .aboutservice {
   font-family:  Josefin Sans,sans-serif;
@@ -146,20 +146,20 @@ font-weight: bold;
 }
 .modal-header h3 {
   font-family: Sniglet;
-  color: #FE9A2E;
+  color: #53BFE6;
 }
 .mainimg h3 {
    font-family: Sniglet;
-  color: #FE9A2E; 
+  color: #53BFE6; 
 }
 .mainimg h4 {
     font-family:  Josefin Sans,sans-serif;
 }
  #portfolio, #contact {
-  background-color: #D8D8D8!important;
+  background-color: white !important;
 }
 .bord {
-  border: 7px solid #D8D8D8;
+  border: 7px solid white;
   cursor: pointer;
 }
 .profile {
@@ -178,7 +178,7 @@ font-weight: bold;
   cursor: pointer;
 }
 #contact {
-  background-color: #848484!important;
+  background-color: #52B1F5 !important;
 }
 .arrow {
   color: white !important;
