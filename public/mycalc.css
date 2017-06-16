@@ -41,8 +41,10 @@ p {
   right: auto; 
   height: auto; 
   bottom: auto;
-  padding-bottom: 300px;
+}
+.mobile {
   transform: rotate(90deg);
+  transform-origin: 30% 50%;
 }
 .calc_container {
   background: none repeat scroll 0 0 white;

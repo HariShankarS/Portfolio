@@ -4,7 +4,8 @@ $(document).ready(function() {
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // is mobile..
-      alert('Please make sure that your mobile view is in LandScape mode!')
+      alert('Please make sure that your mobile view is in LandScape mode!');
+      $("#calculator").addClass("mobile");
     }  
     $("#calc_min").on('click', function(){
       $(this).hide();
