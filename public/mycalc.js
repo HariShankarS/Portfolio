@@ -1,5 +1,7 @@
 $(document).ready(function() {
   
+    // alert('Please make sure that your mobile view is in LandScape mode!');
+
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // is mobile..
       alert('Please make sure that your mobile view is in LandScape mode!')

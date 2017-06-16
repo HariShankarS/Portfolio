@@ -41,6 +41,8 @@ p {
   right: auto; 
   height: auto; 
   bottom: auto;
+  padding-bottom: 300px;
+  transform: rotate(90deg);
 }
 .calc_container {
   background: none repeat scroll 0 0 white;
@@ -50,8 +52,6 @@ p {
   padding: 0px;
   border-bottom: 7px solid #999;
   position:relative;
-  margin: 30px;
-  margin-left: 60px;
 }
 #help_guide {
   margin-bottom:5px;
