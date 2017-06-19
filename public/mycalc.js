@@ -1,9 +1,15 @@
 $(document).ready(function() {
   
     // alert('Please make sure that your mobile view is in LandScape mode!');
+
+    $("html").on("contextmenu",function(e){
+      return false;
+    });
+    
     $("body").on("contextmenu",function(e){
       return false;
     });
+
 
     //Disable part of page
     $("#id").on("contextmenu",function(e){
