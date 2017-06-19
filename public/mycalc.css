@@ -114,3 +114,8 @@ p {
   width: 560px;
   padding-bottom: 20px;
 }
+@media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}

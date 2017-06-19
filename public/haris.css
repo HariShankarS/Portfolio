@@ -261,3 +261,9 @@ font-weight: bold;
 .bord img {
   height: 200px !important;
 }
+
+@media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}

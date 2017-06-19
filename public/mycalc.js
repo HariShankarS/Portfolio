@@ -1,6 +1,42 @@
 $(document).ready(function() {
   
     // alert('Please make sure that your mobile view is in LandScape mode!');
+    $("body").on("contextmenu",function(e){
+      return false;
+    });
+
+    //Disable part of page
+    $("#id").on("contextmenu",function(e){
+      return false;
+    });
+
+    $('body').bind('cut copy paste', function (e) {
+      e.preventDefault();
+    });
+
+    //Disable part of page
+    $('#id').bind('cut copy paste', function (e) {
+      e.preventDefault();
+    });
+
+    document.onkeydown = function(event)
+    {
+    switch (event.keyCode) {
+    case 116: //F5 button
+    event.returnValue = false;
+    event.keyCode = 0;
+    return false;
+    case 82: //R button
+    if (event.ctrlKey) {
+    event.returnValue = false;
+    event.keyCode = 0;
+    return false;
+    }
+    }
+    }
+    document.onkeydown = function (e) {
+      return false;
+    }
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // is mobile..
