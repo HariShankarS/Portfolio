@@ -14,15 +14,14 @@ button {
   font-weight: bold;
   margin: 1px;
   margin-bottom: 3px;
-  width: 37px !important;
-  height: 30px !important;
+  width: 40px !important;
 }
 .back {
-  width: 80px !important;
+  width: 87px !important;
   text-align: center;
 }
 #zero {
-  width: 80px !important;
+  width: 87px !important;
   text-align: center;      
 }
 .back, .clear_all, .plusminus {
@@ -33,10 +32,10 @@ button {
   z-index: 20;
   font-size: 18px;
   background-color: #64D568;
-  height: 68px !important;
+  height: 53px !important;
 }
 .over {
-  width: 470px;
+  width: 505px;
 }
 
 p {
