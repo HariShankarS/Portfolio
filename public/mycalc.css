@@ -14,11 +14,16 @@ button {
   font-weight: bold;
   margin: 1px;
   margin-bottom: 3px;
-  width: 35px !important;
+  width: 37px !important;
+  height: 30px !important;
 }
 .back {
-  width: 77px !important;
+  width: 80px !important;
   text-align: center;
+}
+#zero {
+  width: 80px !important;
+  text-align: center;      
 }
 .back, .clear_all, .plusminus {
   background-color: #F78181;  
@@ -28,14 +33,10 @@ button {
   z-index: 20;
   font-size: 18px;
   background-color: #64D568;
-  height: 54px;
-}
-#zero {
-  width: 77px !important;
-  text-align: center;      
+  height: 68px !important;
 }
 .over {
-  width: 448px;
+  width: 470px;
 }
 
 p {
@@ -121,7 +122,7 @@ p {
   height: 243px;
   overflow: auto;
   padding: 10px;
-  width: 448px;
+  width: 470px;
   padding-bottom: 20px;
 }
 @media print {
