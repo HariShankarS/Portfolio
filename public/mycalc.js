@@ -418,21 +418,18 @@ $(document).ready(function() {
     });
 
     function modify(equation) {
-      var equation = equation.replace(/asind/g,"Math.asin");
-      var equation = equation.replace(/acosd/g,"Math.acos");
-      var equation = equation.replace(/atand/g,"Math.atan");
       var equation = equation.replace(/sinhd/g,"Math.sinh");
       var equation = equation.replace(/coshd/g,"Math.cosh");
       var equation = equation.replace(/tanhd/g,"Math.tanh");
       var equation = equation.replace(/sinhinvd/g,"Math.asinh");
       var equation = equation.replace(/coshinvd/g,"Math.acosh");
       var equation = equation.replace(/tanhinvd/g,"Math.atanh");
-      var equation = equation.replace(/sinr/g,"Math.sin");
-      var equation = equation.replace(/cosr/g,"Math.cos");
-      var equation = equation.replace(/tanr/g,"Math.tan");
       var equation = equation.replace(/asinr/g,"Math.asin");
       var equation = equation.replace(/acosr/g,"Math.acos");
       var equation = equation.replace(/atanr/g,"Math.atan");
+      var equation = equation.replace(/sinr/g,"Math.sin");
+      var equation = equation.replace(/cosr/g,"Math.cos");
+      var equation = equation.replace(/tanr/g,"Math.tan");
       var equation = equation.replace(/sinhr/g,"Math.sinh");
       var equation = equation.replace(/coshr/g,"Math.cosh");
       var equation = equation.replace(/tanhr/g,"Math.tanh");
@@ -519,6 +516,18 @@ $(document).ready(function() {
 
     function tand(number) {
       return Math.tan(number*(Math.PI/180));
+    }
+
+    function asind(number) {
+      return 180*Math.asin(number)/Math.PI;
+    }
+
+    function acosd(number) {
+      return 180*Math.acos(number)/Math.PI;
+    }
+
+    function atand(number) {
+      return 180*Math.atan(number)/Math.PI;
     }
 
     function toFixed(x) {
