@@ -45,7 +45,7 @@ p {
 .mobile {
   transform: rotate(90deg);
   transform-origin: 30% 50%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .calc_container {
   background: none repeat scroll 0 0 white;
