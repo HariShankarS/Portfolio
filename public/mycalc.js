@@ -47,7 +47,6 @@ $(document).ready(function() {
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // is mobile..
         $("#calculator").addClass("mobile");
-        $("#app-link").hide();
     }  
     $("#calc_min").on('click', function(){
       $(this).hide();
