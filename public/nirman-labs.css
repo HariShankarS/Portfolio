@@ -1,0 +1,69 @@
+#home_background {
+  min-height: 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3FA9F6;
+}
+
+ul {
+  font-family:  Josefin Sans,sans-serif;
+}
+
+.home_page_text {
+  margin-top: 7%;
+}
+.stats, .home_page_text h1,h4 {
+  font-family:  Josefin Sans,sans-serif !important;  
+  color: white !important;
+}
+.design_img {
+  -webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
+       -moz-transform: scale(0.7); /* FF3.5+ */
+        -ms-transform: scale(0.7); /* IE9 */
+         -o-transform: scale(0.7); /* Opera 10.5+ */
+            transform: scale(0.7);
+               /* IE6–IE9 */
+               filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');  
+}
+.stats h2, h5 {
+  text-align: center;
+}
+.navbar-default {
+  background-color: transparent !important;
+}
+.navbar .navbar-nav > li >a {
+  outline: 0;
+  margin: 15px;
+  font-size:18px;
+  color: white !important;
+  font-weight: bold;
+  font-family:  Josefin Sans,sans-serif;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus{
+  color: white !important;
+}
+.navbar .navbar-nav > li >a:hover {
+    color: white !important;
+}
+.navbar-collapse {
+  margin-right: 100px!important;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 3%;
+  margin-bottom: 2%;
+  text-align: right;
+}
+.jump {
+  color: black !important;
+  outline: 0 !important;
+}
+body {
+  background-color: white !important;
+}
+#products, #career, #enroll {
+  min-height: 650px;
+}
