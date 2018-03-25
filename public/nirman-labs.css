@@ -18,6 +18,7 @@ ul {
   color: white !important;
 }
 .design_img {
+  margin-left: -22%;
   -webkit-transform: scale(0.7); /* Saf3.1+, Chrome */
        -moz-transform: scale(0.7); /* FF3.5+ */
         -ms-transform: scale(0.7); /* IE9 */
