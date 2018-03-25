@@ -63,7 +63,7 @@
 set :application, 'portfolio'
 
 ## Servers we are going to deploy to ----------------------
-server 'omarket.in', user: 'deploy'
+server '35.185.156.147', user: 'deploy'
 
 ## Server Settings ----------------------------------------
 set :deploy_to, "/var/www/portfolio"
